@@ -29,7 +29,7 @@ password="123"<br>
 driverClassName="oracle.jdbc.driver.OracleDriver"<br>
 url="jdbc:oracle:thin:@localhost:1521:XE"<br>
 maxTotal="5"<br>
-maxIdle="3"/><br>
+maxIdle="3"/>
 </code>
 
 #### $CATALINA_HOME/conf/server.xml
@@ -41,7 +41,7 @@ userNameCol="USERNAME"<br>
 userCredCol="PASSWORD"<br>
 userRoleTable="ROLES"<br>
 roleNameCol="ROLE_NAME"<br>
-dataSourceName="jdbc/oralocalDB"/><br>
+dataSourceName="jdbc/oralocalDB"/>
 </code>
 
 > [!IMPORTANT]
