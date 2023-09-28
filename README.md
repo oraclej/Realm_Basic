@@ -15,8 +15,7 @@ Some Changes in Tomcat like:
 ><code>&lt;role rolename="admin"/><br>
 &lt;role rolename="user"/><br>
 &lt;user username="admin" password="123" roles="admin"/><br>
-&lt;user username="user" password="123" roles="user"/><br>
-</code>
+&lt;user username="user" password="123" roles="user"/></code>
 
 ### DataSourceRealm
 #### $CATALINA_HOME/conf/context.xml
@@ -29,8 +28,7 @@ password="123"<br>
 driverClassName="oracle.jdbc.driver.OracleDriver"<br>
 url="jdbc:oracle:thin:@localhost:1521:XE"<br>
 maxTotal="5"<br>
-maxIdle="3"/>
-</code>
+maxIdle="3"/></code>
 
 #### $CATALINA_HOME/conf/server.xml
 
@@ -41,8 +39,7 @@ userNameCol="USERNAME"<br>
 userCredCol="PASSWORD"<br>
 userRoleTable="ROLES"<br>
 roleNameCol="ROLE_NAME"<br>
-dataSourceName="jdbc/oralocalDB"/>
-</code>
+dataSourceName="jdbc/oralocalDB"/></code>
 
 > [!IMPORTANT]
 > Dont forget to copy JDBC Driver Library to the Tomcat Lib folder
