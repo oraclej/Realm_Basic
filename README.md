@@ -8,7 +8,7 @@ using the following tools:
 
 Some Changes in Tomcat like:
 
-###UserDatabaseRealm
+### UserDatabaseRealm
 
 #### $CATALINA_HOME/conf/tomcat-users.xml
 
@@ -17,7 +17,7 @@ Some Changes in Tomcat like:
 &lt;user username="admin" password="123" roles="admin"/><br>
 &lt;user username="user" password="123" roles="user"/><br>
 </code>
-###DataSourceRealm
+### DataSourceRealm
 #### $CATALINA_HOME/conf/context.xml
 ><code><Resource name="jdbc/oralocalDB"
 auth="Container"
