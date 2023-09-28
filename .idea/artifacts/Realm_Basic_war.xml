@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Realm_Basic:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Realm_Basic</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Realm_Basic-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Realm_Basic:war exploded" />
+    </root>
+  </artifact>
+</component>
