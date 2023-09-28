@@ -21,27 +21,27 @@ Some Changes in Tomcat like:
 ### DataSourceRealm
 #### $CATALINA_HOME/conf/context.xml
 
-><code><Resource name="jdbc/oralocalDB"
-auth="Container"
-type="javax.sql.DataSource"
-username="c##arash"
-password="123"
-driverClassName="oracle.jdbc.driver.OracleDriver"
-url="jdbc:oracle:thin:@localhost:1521:XE"
-maxTotal="5"
-maxIdle="3"
+><code>&lt;Resource name="jdbc/oralocalDB"<br>
+auth="Container"<br>
+type="javax.sql.DataSource"<br>
+username="c##arash"<br>
+password="123"<br>
+driverClassName="oracle.jdbc.driver.OracleDriver"<br>
+url="jdbc:oracle:thin:@localhost:1521:XE"<br>
+maxTotal="5"<br>
+maxIdle="3"<br>
 /></code>
 
 #### $CATALINA_HOME/conf/server.xml
 
-><code><Realm  className="org.apache.catalina.realm.DataSourceRealm"
-localDataSource="true"
-userTable="USERS"
-userNameCol="USERNAME"
-userCredCol="PASSWORD"
-userRoleTable="ROLES"
-roleNameCol="ROLE_NAME"
-dataSourceName="jdbc/oralocalDB"/>
+><code>&lt;Realm  className="org.apache.catalina.realm.DataSourceRealm"<br>
+localDataSource="true"<br>
+userTable="USERS"<br>
+userNameCol="USERNAME"<br>
+userCredCol="PASSWORD"<br>
+userRoleTable="ROLES"<br>
+roleNameCol="ROLE_NAME"<br>
+dataSourceName="jdbc/oralocalDB"/><br>
 > </code>
 
 > [!IMPORTANT]
